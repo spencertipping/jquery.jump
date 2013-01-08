@@ -63,6 +63,9 @@
 //       $(this).jump('...object .person .attributes label').val('');
 //     });
 
+//   This is equivalent to
+//   `.closest('.object').children('.person').children('.attributes').children('label')`.
+
 (function ($) {
 
 // Path grammar.
